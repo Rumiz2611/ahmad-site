@@ -14,6 +14,7 @@
       <a href="#about" data-en="About" data-he="עליי">About</a>
       <a href="#study" data-en="Studies" data-he="לימודים">Studies</a>
       <a href="#projects" data-en="Projects" data-he="פרויקטים">Projects</a>
+      <a href="#sobel" data-en="Sobel" data-he="Sobel">Sobel</a>
       <a href="#contact" data-en="Contact" data-he="קשר">Contact</a>
     </nav>
     <button id="lang-toggle" type="button" aria-label="Switch language">עברית</button>
@@ -21,10 +22,114 @@
 
   <main id="top">
     <section class="hero">
-      <p class="eyebrow" data-en="Technion – Israel Institute of Technology" data-he="הטכניון – מכון טכנולוגי לישראל">Technion – Israel Institute of Technology</p>
-      <h1 data-en="Hi, I'm Ahmad." data-he="היי, אני אחמד.">Hi, I'm Ahmad.</h1>
-      <p class="lead" data-en="A student working where chips, circuits and physics meet." data-he="סטודנט שעוסק בנקודת המפגש של שבבים, מעגלים ופיזיקה.">A student working where chips, circuits and physics meet.</p>
-      <a class="button" href="#projects" data-en="See my projects" data-he="לפרויקטים שלי">See my projects</a>
+      <div class="hero-copy">
+        <p class="eyebrow" data-en="Technion – Israel Institute of Technology" data-he="הטכניון – מכון טכנולוגי לישראל">Technion – Israel Institute of Technology</p>
+        <h1 data-en="Hi, I'm Ahmad." data-he="היי, אני אחמד.">Hi, I'm Ahmad.</h1>
+        <p class="lead" data-en="A student working where chips, circuits and physics meet." data-he="סטודנט שעוסק בנקודת המפגש של שבבים, מעגלים ופיזיקה.">A student working where chips, circuits and physics meet.</p>
+        <a class="button" href="#projects" data-en="See my projects" data-he="לפרויקטים שלי">See my projects</a>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <svg class="pixel-student" viewBox="0 0 256 288" role="img" aria-label="Pixel art student">
+          <g class="student-wrap">
+            <ellipse class="ground-shadow" cx="128" cy="264" rx="72" ry="12" />
+
+            <g class="leg leg-left">
+              <rect class="trousers" x="96" y="216" width="24" height="40" />
+              <rect class="shoe" x="80" y="248" width="40" height="16" />
+              <rect class="shoe-highlight" x="88" y="248" width="16" height="8" />
+            </g>
+            <g class="leg leg-right">
+              <rect class="trousers" x="136" y="216" width="24" height="40" />
+              <rect class="shoe" x="136" y="248" width="40" height="16" />
+              <rect class="shoe-highlight" x="144" y="248" width="16" height="8" />
+            </g>
+
+            <g class="arm arm-left">
+              <rect class="sleeve" x="56" y="160" width="24" height="48" />
+              <rect class="cuff" x="56" y="200" width="24" height="8" />
+              <rect class="hand" x="56" y="208" width="24" height="24" />
+            </g>
+            <g class="arm arm-right">
+              <rect class="sleeve" x="176" y="160" width="24" height="48" />
+              <rect class="cuff" x="176" y="200" width="24" height="8" />
+              <rect class="hand" x="176" y="208" width="24" height="24" />
+            </g>
+
+            <g class="torso">
+              <rect class="hood" x="88" y="144" width="80" height="24" />
+              <rect class="hoodie" x="80" y="160" width="96" height="64" />
+              <rect class="hoodie-shadow" x="88" y="168" width="80" height="8" />
+              <rect class="hoodie-pocket" x="104" y="192" width="48" height="24" />
+              <rect class="pocket-seam" x="112" y="192" width="32" height="8" />
+              <rect class="zipper" x="124" y="176" width="8" height="32" />
+              <rect class="zipper-pull" x="128" y="200" width="8" height="8" />
+              <rect class="shirt" x="112" y="152" width="32" height="8" />
+            </g>
+
+            <rect class="neck" x="112" y="128" width="32" height="24" />
+            <rect class="ear" x="72" y="88" width="16" height="24" />
+            <rect class="ear" x="168" y="88" width="16" height="24" />
+            <g class="head">
+              <rect class="skin" x="80" y="56" width="96" height="88" />
+              <rect class="skin-shadow" x="80" y="128" width="96" height="16" />
+              <rect class="cheek" x="88" y="112" width="16" height="8" />
+              <rect class="cheek" x="152" y="112" width="16" height="8" />
+            </g>
+
+            <g class="hair">
+              <rect class="hair-base" x="72" y="40" width="112" height="32" />
+              <rect class="hair-base" x="64" y="56" width="16" height="72" />
+              <rect class="hair-base" x="176" y="56" width="16" height="80" />
+              <rect class="hair-base" x="72" y="120" width="16" height="24" />
+              <rect class="hair-base" x="168" y="128" width="16" height="16" />
+              <rect class="hair-base" x="88" y="64" width="24" height="16" />
+              <rect class="hair-base" x="144" y="64" width="24" height="16" />
+              <rect class="hair-highlight" x="88" y="48" width="24" height="8" />
+              <rect class="hair-highlight" x="144" y="48" width="24" height="8" />
+              <rect class="hair-highlight" x="64" y="72" width="8" height="24" />
+              <rect class="hair-shadow" x="176" y="88" width="8" height="32" />
+            </g>
+
+            <g class="glasses">
+              <rect class="frame" x="88" y="88" width="40" height="8" />
+              <rect class="frame" x="88" y="112" width="40" height="8" />
+              <rect class="frame" x="88" y="96" width="8" height="16" />
+              <rect class="frame" x="120" y="96" width="8" height="16" />
+              <rect class="frame" x="136" y="88" width="40" height="8" />
+              <rect class="frame" x="136" y="112" width="40" height="8" />
+              <rect class="frame" x="136" y="96" width="8" height="16" />
+              <rect class="frame" x="168" y="96" width="8" height="16" />
+              <rect class="bridge" x="128" y="96" width="8" height="8" />
+              <rect class="lens" x="96" y="96" width="24" height="16" />
+              <rect class="lens" x="144" y="96" width="24" height="16" />
+              <rect class="eye" x="104" y="104" width="8" height="8" />
+              <rect class="eye" x="152" y="104" width="8" height="8" />
+              <rect class="lens-glint" x="96" y="96" width="8" height="8" />
+              <rect class="lens-glint" x="144" y="96" width="8" height="8" />
+            </g>
+
+            <g class="face">
+              <rect class="nose" x="128" y="112" width="8" height="8" />
+              <rect class="mouth" x="120" y="128" width="24" height="8" />
+              <rect class="mouth-highlight" x="128" y="128" width="8" height="4" />
+            </g>
+
+            <g class="backpack">
+              <rect x="72" y="160" width="8" height="48" />
+              <rect x="72" y="192" width="8" height="16" />
+            </g>
+            <g class="sparkles">
+              <rect x="32" y="80" width="8" height="24" />
+              <rect x="24" y="88" width="24" height="8" />
+              <rect x="208" y="112" width="8" height="24" />
+              <rect x="200" y="120" width="24" height="8" />
+              <rect x="200" y="48" width="8" height="16" />
+              <rect x="192" y="56" width="24" height="8" />
+            </g>
+          </g>
+        </svg>
+      </div>
     </section>
 
     <section id="about">
@@ -57,10 +162,67 @@
     <section id="projects">
       <h2 data-en="Projects" data-he="פרויקטים">Projects</h2>
       <div class="grid two">
-        <article class="card">
-          <h3 data-en="Sobel edge-detection accelerator" data-he="מאיץ חומרה לזיהוי קצוות (Sobel)">Sobel edge-detection accelerator</h3>
-          <p data-en="A hardware IP block that implements the Sobel operator to find edges in images." data-he="בלוק IP חומרתי שמממש את אופרטור Sobel לזיהוי קצוות בתמונות.">A hardware IP block that implements the Sobel operator to find edges in images.</p>
-        </article>
+        <details class="card project-card" id="fpga-frogger">
+          <summary class="project-summary">
+            <figure class="game-preview">
+              <img src="images/fpga-frogger.png" alt="Pixel-art screenshot of the FPGA Frogger-inspired game, with a cat crossing a river toward a mouse." loading="lazy">
+            </figure>
+            <h3 data-en="FPGA-Based Arcade Game (Frogger-Inspired)" data-he="משחק ארקייד מבוסס FPGA (בהשראת Frogger)">FPGA-Based Arcade Game (Frogger-Inspired)</h3>
+            <p data-en="A pixel-art arcade game built in SystemVerilog, with a cat crossing floating logs to catch a mouse." data-he="משחק ארקייד בפיקסלים שנבנה ב-SystemVerilog, ובו חתול חוצה בולי עץ צפים כדי לתפוס עכבר.">A pixel-art arcade game built in SystemVerilog, with a cat crossing floating logs to catch a mouse.</p>
+            <span class="expand-hint">
+              <span class="expand-closed" data-en="Click to explore the project" data-he="לחצו כדי להכיר את הפרויקט">Click to explore the project</span>
+              <span class="expand-open" data-en="Click to close the details" data-he="לחצו לסגירת הפרטים">Click to close the details</span>
+            </span>
+          </summary>
+          <div class="project-content">
+            <h4 data-en="Technion – Electrical &amp; Computer Engineering" data-he="הטכניון – הנדסת חשמל ומחשבים">Technion – Electrical &amp; Computer Engineering</h4>
+            <ul class="facts">
+              <li data-en="Designed and implemented a complete arcade-style game on FPGA using SystemVerilog." data-he="תכננתי ומימשתי משחק ארקייד מלא על גבי FPGA באמצעות SystemVerilog.">Designed and implemented a complete arcade-style game on FPGA using SystemVerilog.</li>
+              <li data-en="Developed modules for sprite rendering, VGA display control, input handling, and game state management." data-he="פיתחתי מודולים להצגת דמויות, לבקרת תצוגת VGA, לטיפול בקלט ולניהול מצב המשחק.">Developed modules for sprite rendering, VGA display control, input handling, and game state management.</li>
+              <li data-en="Implemented moving obstacles, collectible items, multi-level progression with increasing difficulty, a life system, win/lose conditions, and dynamic bitmap graphics." data-he="מימשתי מכשולים נעים, פריטי אספנות, התקדמות בין שלבים עם עלייה ברמת הקושי, מערכת חיים, תנאי ניצחון והפסד וגרפיקת bitmap דינמית.">Implemented moving obstacles, collectible items, multi-level progression with increasing difficulty, a life system, win/lose conditions, and dynamic bitmap graphics.</li>
+              <li data-en="Optimized logic utilization and achieved timing closure within 10-minute compilation constraints in Intel Quartus Prime." data-he="ביצעתי אופטימיזציה לניצול הלוגיקה והשגתי סגירת תזמון במסגרת זמן קומפילציה של פחות מ-10 דקות ב-Intel Quartus Prime.">Optimized logic utilization and achieved timing closure within 10-minute compilation constraints in Intel Quartus Prime.</li>
+              <li data-en="Debugged with Signal Tap Logic Analyzer to verify real-time hardware behavior." data-he="ביצעתי ניפוי שגיאות באמצעות Signal Tap Logic Analyzer כדי לאמת את התנהגות החומרה בזמן אמת.">Debugged with Signal Tap Logic Analyzer to verify real-time hardware behavior.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="card project-card" id="sobel">
+          <summary class="project-summary">
+            <h3 data-en="Sobel edge-detection accelerator" data-he="מאיץ חומרה לזיהוי קצוות (Sobel)">Sobel edge-detection accelerator</h3>
+            <p data-en="A hardware IP block that implements the Sobel operator to find edges in images." data-he="בלוק IP חומרתי שמממש את אופרטור Sobel לזיהוי קצוות בתמונות.">A hardware IP block that implements the Sobel operator to find edges in images.</p>
+            <span class="expand-hint">
+              <span class="expand-closed" data-en="Click to explore the project" data-he="לחצו כדי להכיר את הפרויקט">Click to explore the project</span>
+              <span class="expand-open" data-en="Click to close the details" data-he="לחצו לסגירת הפרטים">Click to close the details</span>
+            </span>
+          </summary>
+          <div class="project-content">
+            <h4 data-en="Inside the accelerator" data-he="בתוך המאיץ">Inside the accelerator</h4>
+            <p data-en="My VLSI capstone: a hardware accelerator that finds edges in an image using the Sobel operator. Pixels stream in one per clock cycle, pass through a 3×3 window, and come out as a black-and-white edge map. The design is written in SystemVerilog, targets a Cyclone V DE1-SoC FPGA, and is based on the architecture in Ravichandran et al., Sensors 2025." data-he="פרויקט הגמר שלי ב-VLSI: מאיץ חומרה שמזהה קצוות בתמונה בעזרת אופרטור Sobel. הפיקסלים זורמים פנימה אחד בכל מחזור שעון, עוברים דרך חלון 3×3, ויוצאים כמפת קצוות בשחור-לבן. התכן כתוב ב-SystemVerilog, מיועד ל-FPGA מסוג Cyclone V DE1-SoC, ומבוסס על הארכיטקטורה ממאמרם של Ravichandran ואחרים, Sensors 2025.">My VLSI capstone: a hardware accelerator that finds edges in an image using the Sobel operator. Pixels stream in one per clock cycle, pass through a 3×3 window, and come out as a black-and-white edge map. The design is written in SystemVerilog, targets a Cyclone V DE1-SoC FPGA, and is based on the architecture in Ravichandran et al., Sensors 2025.</p>
+
+            <h4 data-en="How it works" data-he="איך זה עובד">How it works</h4>
+            <ul class="facts">
+              <li data-en="Line buffer: a shift register of 2W+3 pixels with 9 taps gives the full 3×3 window every cycle, with no memory blocks." data-he="חוצץ שורות: רגיסטר הזזה באורך 2W+3 פיקסלים עם 9 נקודות דגימה מספק את חלון ה-3×3 המלא בכל מחזור, בלי בלוקי זיכרון.">Line buffer</li>
+              <li data-en="Multiplier-free convolution: the Sobel ×2 weights are a shift by one bit and the ×1 weights pass straight through, so the datapath uses no multipliers or DSP blocks." data-he="קונבולוציה ללא מכפלים: משקלי ה-×2 של Sobel הם הזזה בביט אחד ומשקלי ה-×1 עוברים כמו שהם, כך שמסלול הנתונים לא משתמש במכפלים או בבלוקי DSP.">Multiplier-free convolution</li>
+              <li data-en="Edge strength: Gx and Gy are computed in parallel adder trees, and |Gx| + |Gy| approximates the gradient magnitude without a square root." data-he="עוצמת הקצה: Gx ו-Gy מחושבים בעצי מחברים מקבילים, ו-|Gx| + |Gy| מקרב את גודל הגרדיאנט בלי שורש ריבועי.">Edge strength</li>
+              <li data-en="Threshold: each result is compared with a programmable threshold and becomes a black or white pixel." data-he="סף: כל תוצאה מושווית לסף הניתן לתכנות והופכת לפיקסל שחור או לבן.">Threshold</li>
+              <li data-en="CPU control: an AMBA APB slave with 8 registers (control, threshold, status, image size, direction, pixel count, errors) lets a processor configure and monitor the core." data-he="שליטה מה-CPU: ‏APB slave בתקן AMBA עם 8 רגיסטרים (בקרה, סף, סטטוס, גודל תמונה, כיוון, מונה פיקסלים, שגיאות) מאפשר למעבד להגדיר את הליבה ולעקוב אחריה.">CPU control</li>
+              <li data-en="Back-pressure: an AXI-stream output FIFO can stall the whole pipeline when it fills up, so no pixels are dropped." data-he="לחץ חוזר: FIFO מוצא בממשק AXI-stream יכול לעצור את כל הצינור כשהוא מתמלא, כך שלא הולכים לאיבוד פיקסלים.">Back-pressure</li>
+            </ul>
+
+            <h4 data-en="Status" data-he="סטטוס">Status</h4>
+            <p data-en="The APB slave is written and passes a self-checking regression of 23 tests in simulation. The core pipeline (image control, convolution, output buffer) is planned block by block and is the part I'm building now." data-he="ה-APB slave כתוב ועובר רגרסיה של 23 בדיקות עצמיות בסימולציה. צינור הליבה (בקרת תמונה, קונבולוציה, חוצץ מוצא) מתוכנן בלוק אחר בלוק, והוא החלק שאני בונה עכשיו.">The APB slave is written and passes a self-checking regression of 23 tests in simulation. The core pipeline (image control, convolution, output buffer) is planned block by block and is the part I'm building now.</p>
+
+            <div class="figures">
+              <figure>
+                <a href="images/sobel-apb-slave.png" target="_blank" rel="noopener"><img src="images/sobel-apb-slave.png" alt="Block diagram of the Sobel APB slave and its register map" loading="lazy"></a>
+                <figcaption data-en="The APB slave: bus signals, internal logic and the 8-register map." data-he="ה-APB slave: אותות האפיק, הלוגיקה הפנימית ומפת 8 הרגיסטרים.">The APB slave</figcaption>
+              </figure>
+              <figure>
+                <a href="images/sobel-core.svg" target="_blank" rel="noopener"><img class="light" src="images/sobel-core.svg" alt="Block diagram of the Sobel core: image control, convolution datapath and output buffer" loading="lazy"></a>
+                <figcaption data-en="The Sobel core: line buffer, multiplier-free convolution and output FIFO." data-he="ליבת ה-Sobel: חוצץ שורות, קונבולוציה ללא מכפלים ו-FIFO מוצא.">The Sobel core</figcaption>
+              </figure>
+            </div>
+          </div>
+        </details>
         <article class="card">
           <h3 data-en="This website" data-he="האתר הזה">This website</h3>
           <p data-en="Built in VS Code and published with GitHub Pages as part of an AI course." data-he="נבנה ב-VS Code ופורסם ב-GitHub Pages במסגרת קורס AI.">Built in VS Code and published with GitHub Pages as part of an AI course.</p>
@@ -71,7 +233,7 @@
     <section id="contact">
       <h2 data-en="Contact" data-he="קשר">Contact</h2>
       <p data-en="The best place to find me and my code is GitHub." data-he="המקום הכי טוב למצוא אותי ואת הקוד שלי הוא GitHub.">The best place to find me and my code is GitHub.</p>
-      <a class="button ghost" id="github-link" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a class="button ghost" id="github-link" href="https://github.com/Rumiz2611" target="_blank" rel="noopener">GitHub</a>
     </section>
   </main>
 
