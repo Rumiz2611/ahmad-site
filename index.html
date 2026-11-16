@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmad | Technion</title>
+  <meta name="description" content="Personal homepage of Ahmad, a student at the Technion.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" data-en="Ahmad" data-he="אחמד">Ahmad</a>
+    <nav>
+      <a href="#about" data-en="About" data-he="עליי">About</a>
+      <a href="#study" data-en="Studies" data-he="לימודים">Studies</a>
+      <a href="#projects" data-en="Projects" data-he="פרויקטים">Projects</a>
+      <a href="#contact" data-en="Contact" data-he="קשר">Contact</a>
+    </nav>
+    <button id="lang-toggle" type="button" aria-label="Switch language">עברית</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow" data-en="Technion – Israel Institute of Technology" data-he="הטכניון – מכון טכנולוגי לישראל">Technion – Israel Institute of Technology</p>
+      <h1 data-en="Hi, I'm Ahmad." data-he="היי, אני אחמד.">Hi, I'm Ahmad.</h1>
+      <p class="lead" data-en="A student working where chips, circuits and physics meet." data-he="סטודנט שעוסק בנקודת המפגש של שבבים, מעגלים ופיזיקה.">A student working where chips, circuits and physics meet.</p>
+      <a class="button" href="#projects" data-en="See my projects" data-he="לפרויקטים שלי">See my projects</a>
+    </section>
+
+    <section id="about">
+      <h2 data-en="About" data-he="עליי">About</h2>
+      <p data-en="I study at the Technion, and I'm interested in how a chip comes to life: from the physics of the material, through the transistor-level circuit, all the way to the physical layout and the networks that connect everything." data-he="אני לומד בטכניון, ומתעניין באופן שבו שבב קם לתחייה: מהפיזיקה של החומר, דרך המעגל ברמת הטרנזיסטור, ועד לתכנון הפיזי ולרשתות שמחברות את הכול.">I study at the Technion, and I'm interested in how a chip comes to life: from the physics of the material, through the transistor-level circuit, all the way to the physical layout and the networks that connect everything.</p>
+    </section>
+
+    <section id="study">
+      <h2 data-en="What I study" data-he="מה אני לומד">What I study</h2>
+      <div class="grid">
+        <article class="card">
+          <h3 data-en="VLSI physical design" data-he="תכנון פיזי של VLSI">VLSI physical design</h3>
+          <p data-en="Placement, routing and the algorithms that turn a netlist into silicon." data-he="מיקום, ניתוב והאלגוריתמים שהופכים רשימת חיבורים לסיליקון.">Placement, routing and the algorithms that turn a netlist into silicon.</p>
+        </article>
+        <article class="card">
+          <h3 data-en="Analog IC design" data-he="תכנון מעגלים אנלוגיים">Analog IC design</h3>
+          <p data-en="Amplifiers, current mirrors, differential pairs, feedback and stability." data-he="מגברים, מראות זרם, זוגות דיפרנציאליים, משוב ויציבות.">Amplifiers, current mirrors, differential pairs, feedback and stability.</p>
+        </article>
+        <article class="card">
+          <h3 data-en="Condensed matter physics" data-he="פיזיקה של חומר מעובה">Condensed matter physics</h3>
+          <p data-en="The statistical mechanics and solid-state physics underneath every device." data-he="המכניקה הסטטיסטית ופיזיקת המצב המוצק שמאחורי כל התקן.">The statistical mechanics and solid-state physics underneath every device.</p>
+        </article>
+        <article class="card">
+          <h3 data-en="Computer networks" data-he="רשתות מחשבים">Computer networks</h3>
+          <p data-en="Protocols and queueing theory: how data actually gets from A to B." data-he="פרוטוקולים ותורת התורים: איך מידע באמת מגיע מ-A ל-B.">Protocols and queueing theory: how data actually gets from A to B.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 data-en="Projects" data-he="פרויקטים">Projects</h2>
+      <div class="grid two">
+        <article class="card">
+          <h3 data-en="Sobel edge-detection accelerator" data-he="מאיץ חומרה לזיהוי קצוות (Sobel)">Sobel edge-detection accelerator</h3>
+          <p data-en="A hardware IP block that implements the Sobel operator to find edges in images." data-he="בלוק IP חומרתי שמממש את אופרטור Sobel לזיהוי קצוות בתמונות.">A hardware IP block that implements the Sobel operator to find edges in images.</p>
+        </article>
+        <article class="card">
+          <h3 data-en="This website" data-he="האתר הזה">This website</h3>
+          <p data-en="Built in VS Code and published with GitHub Pages as part of an AI course." data-he="נבנה ב-VS Code ופורסם ב-GitHub Pages במסגרת קורס AI.">Built in VS Code and published with GitHub Pages as part of an AI course.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 data-en="Contact" data-he="קשר">Contact</h2>
+      <p data-en="The best place to find me and my code is GitHub." data-he="המקום הכי טוב למצוא אותי ואת הקוד שלי הוא GitHub.">The best place to find me and my code is GitHub.</p>
+      <a class="button ghost" id="github-link" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </section>
+  </main>
+
+  <footer>
+    <p data-en="Made by Ahmad · Built in VS Code · Hosted on GitHub Pages" data-he="נבנה על ידי אחמד · VS Code · מתארח ב-GitHub Pages">Made by Ahmad · Built in VS Code · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
